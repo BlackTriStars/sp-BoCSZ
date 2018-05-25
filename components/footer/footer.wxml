@@ -1,0 +1,10 @@
+<!--components/footer/footer.wxml-->
+  <view class="footer">
+    <view class="ul">
+      <view class="li" wx:for="{{list}}" wx:key="index" class="{{currentIndex === index ? 'active' : '' }}" bindtap="changeCurrentActive" data-index="{{index}}" data-url="{{item.url}}">
+        <text class="icon {{item.icon}}"></text>
+        <text>{{item.content}}</text>
+      </view>
+
+    </view>
+  </view> 

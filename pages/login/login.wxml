@@ -1,0 +1,18 @@
+<view class="loginContainer">
+  <view class="logoArea">
+    <view class="logo">
+      <image src="../../assets/logo.png" mode="widthFix"/>
+    </view>
+    <view class="title">欢迎登陆</view>
+  </view>
+
+  <form bindsubmit="login">
+    <view class="section">
+      <input placeholder="输入账号" type="text" name="userName"></input>
+    </view>
+    <view class="section">
+      <input placeholder="输入密码" type="password" name="userName"></input>
+    </view>
+    <button form-type="submit">登陆/绑定</button>
+  </form>
+</view>
