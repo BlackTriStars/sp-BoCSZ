@@ -5,7 +5,12 @@ view {
 page {
   background: #f7f8fb;
 }
-view{
+view,
+li,
+ul,
+span,
+text,
+i{
   box-sizing: border-box;
 }
 .container {
