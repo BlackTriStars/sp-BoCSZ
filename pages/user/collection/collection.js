@@ -89,5 +89,12 @@ Page({
     this.setData({
       [attr]: !this.data.list[index].select
     })
+  },
+  del() {
+    let list = this.data.list.filter(v => !v.select);
+    this.setData({
+      canEdit: false,
+      list
+    })
   }
 })

@@ -9,7 +9,8 @@
     "pages/user/user",
     "pages/user/collection/collection",
     "pages/user/integral/integral",
-    "pages/user/introduce/introduce"
+    "pages/user/introduce/introduce",
+    "pages/survey/surveyTest/surveyTest"
   ],
   "window": {
     "backgroundTextStyle": "light",

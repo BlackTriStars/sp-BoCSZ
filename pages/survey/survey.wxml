@@ -1,2 +1,22 @@
-<!--pages/survey/survey.wxml-->
-<text>pages/survey/survey.wxml</text>
+  <view class="my-study">
+        <view class="toggle-container">
+          <view class="bg">
+            <image src="{{imgSrc}}/assets/myStudy/banner.png"/>
+          </view>
+            <ul class="toggle">
+                <li>进行中</li>
+                <li>已完成</li>
+            </ul>
+        </view>
+        <view class="content">
+          <view class="item" wx:for="{{list}}" wx:key="index" data-id="{{item.id}}" bindtap="go">
+            <view class="cot">
+              <view class="title">{{item.title}}</view>
+              <view class="time">开始时间: {{item.time}}</view>
+            </view>
+            <view class="tip">
+              <text>{{item.num}}人已参加</text>
+            </view>
+          </view>
+        </view>
+  </view>

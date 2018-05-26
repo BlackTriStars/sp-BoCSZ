@@ -29,7 +29,7 @@
       <text class="icon-Delete"></text>
       删除
     </view>
-    <view class="cancel" bindtap="canEdit= false;">
+    <view class="cancel" bindtap="changeEditStatus">
       <text class="icon-edit"></text>
       取消
     </view>

@@ -1,0 +1,27 @@
+  <view id="surveyList">
+    <view class="title">
+      {{title}}
+    </view>
+    <view class="desc" wx:if="!status">
+      <view class="p">问卷简介: {{info.desc}}</view>
+      <view class="p">开始时间: {{info.time}}</view>
+      <view class="p">实体数量: {{info.num}}</view>
+    </view>
+    <view class="question" wx:else>
+      <view class="questionContent">
+        <span class="order">{{current+1}}.</span>
+        <view class="p">{{questionList[current].content}}</view>
+      </view>
+      <view class="options">
+        <view class="option" wx:for="{{questionList[current].options}}" wx:for-item="option" wx:for-index="index" wx:key="index" bindtap="chooseAnswer" data-index="{{index}}">
+          <span :class="select {{questionList[current].value === index? 'active':''}}">
+            <i class="icon-checkbox" hidden="{{!questionList[current].value === index}}"></i>
+          </span>
+          {{option}}</view>
+      </view>
+    </view>
+    <view class="btnWrap">
+      <view class="pre {{!status?'join':''}}" bindtap="pre">{{status?'上一题':'参加问卷'}}</view>
+      <view class="next" bindtap="next">{{status?'下一题':'查看问卷'}}</view>
+    </view>
+  </view>

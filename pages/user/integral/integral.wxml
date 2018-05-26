@@ -1,2 +1,25 @@
-<!--pages/user/integral/integral.wxml-->
-<text>pages/user/integral/integral.wxml</text>
+  <view id="integral">
+    <view class="info">
+      <view class="bg">
+        <image src="{{imgSrc}}/assets/user/integralBg.png" />
+      </view>
+      <view class="p">当前积分为</view>
+      <view class="p">当前排名{{res.rank}}</view>
+      <view class="score">
+        {{res.score}}
+      </view>
+    </view>
+    <view class="padding"></view>
+    <view class="main">
+      <view class="item" wx:for="{{res.list}}" wx:key="index">
+        <view class="leftArea">
+          <view class="title">{{item.title}}</view>
+          <view class="p">{{item.desc}}</view>
+          <view class="p time">{{item.time}}</view>
+        </view>
+        <view class="rightArea">
+          <image src="{{imgSrc}}/assets/user/gold.png"/>
+        </view>
+      </view>
+    </view>
+  </view>

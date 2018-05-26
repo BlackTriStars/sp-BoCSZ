@@ -1,0 +1,80 @@
+#surveyList {
+  background: #edffff;
+  min-height: 100vh;
+}
+#surveyList .title {
+  width: 100%;
+  height: 113.19444444rpx;
+  border-bottom: 0.69444444rpx solid #999;
+  line-height: 112.5rpx;
+  font-size: 33.33333333rpx;
+  color: #333;
+  padding-left: 48.61111111rpx;
+  position: relative;
+}
+#surveyList .title:before {
+  content: '';
+  width: 8.33333333rpx;
+  height: 41.66666667rpx;
+  background-color: #3383ef;
+  position: absolute;
+  top: 50%;
+  left: 20.83333333rpx;
+  transform: translateY(-50%);
+}
+#surveyList .desc,
+#surveyList .question {
+  padding: 39.58333333rpx 27.77777778rpx 0;
+  font-size: 25rpx;
+  line-height: 47.22222222rpx;
+  color: #666;
+}
+#surveyList .question .questionContent {
+  padding-left: 34.72222222rpx;
+  position: relative;
+}
+#surveyList .question .questionContent .order {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#surveyList .question .options {
+  position: relative;
+}
+#surveyList .question .options .select {
+  position: absolute;
+  left: 0;
+  width: 40.27777778rpx;
+  height: 40.27777778rpx;
+  border-radius: 50%;
+  border: 1.38888889rpx solid #85d0ff;
+  /*no*/
+  color: #fff;
+  line-height: 40.27777778rpx;
+  text-align: center;
+}
+#surveyList .question .options .select.active {
+  background: #85d0ff;
+}
+#surveyList .question .options .option {
+  padding-left: 69.44444444rpx;
+}
+#surveyList .btnWrap {
+  margin-top: 48.61111111rpx;
+  padding: 0 27.77777778rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#surveyList .btnWrap > div {
+  width: 327.77777778rpx;
+  height: 95.83333333rpx;
+  background: #1074ee;
+  font-size: 41.66666667rpx;
+  color: #fff;
+  line-height: 95.83333333rpx;
+  text-align: center;
+}
+#surveyList .btnWrap .join {
+  background: #ff850c;
+}
