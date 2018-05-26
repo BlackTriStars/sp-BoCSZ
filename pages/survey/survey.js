@@ -34,6 +34,8 @@ Page({
   
   },
   go(){
-    
+    wx.navigateTo({
+      url: '/pages/survey/surveyTest/surveyTest'
+    })
   },
 })

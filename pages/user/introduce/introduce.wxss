@@ -1,1 +1,85 @@
-/* pages/user/introduce/introduce.wxss */
+#introduce {
+  position: relative;
+}
+#introduce image {
+  width: 100%;
+}
+#introduce .two .first .button,
+#introduce .two .second .button {
+  position: absolute;
+  z-index: 9;
+  top: 28.56140351%;
+  left: 11.11111111%;
+  width: 35.37037037%;
+  height: 3.85964912%;
+  border-radius: 75rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27.77777778rpx;
+  color: #2c1900;
+}
+#introduce .two .first .button:nth-child(2n),
+#introduce .two .second .button:nth-child(2n) {
+  left: 50%;
+}
+#introduce .mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+#introduce .mask .album {
+  width: 643.05555556rpx;
+  height: 842.36111111rpx;
+  position: relative;
+}
+#introduce .mask .album .bg {
+  position: relative;
+  z-index: 999;
+}
+#introduce .mask .album .bg image {
+  width: 100%;
+}
+#introduce .mask .album .bg .title {
+  position: absolute;
+  top: 104.16666667rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 38.88888889rpx;
+  font-weight: bold;
+  color: #fff;
+}
+#introduce .mask .album .bg .close {
+  position: absolute;
+  top: 94.44444444rpx;
+  right: 34.72222222rpx;
+  width: 90.97222222rpx;
+  height: 90.97222222rpx;
+  border-radius: 50%;
+  background-color: #e94547;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 47.22222222rpx;
+}
+#introduce .mask .album .imgWrap {
+  width: 458.33333333rpx;
+  height: 668.75rpx;
+  background: #fff;
+  z-index: 9;
+  position: absolute;
+  bottom: 17.36111111rpx;
+  left: 95.13888889rpx;
+}
+#introduce .mask .album .imgWrap image {
+  width: 100%;
+  height: 100%;
+}

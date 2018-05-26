@@ -1,0 +1,37 @@
+  <view id="historyList">
+    <view class="content">
+      <view class="title">{{res.title}}</view>
+      <view class="data">
+        <text wx:for="{{res.data}}" wx:for-item="v" wx:for-index="i" wx:key="i">
+          <text class="icon-{{v.name}}"></text>
+          {{v.value}}
+        </text>
+      </view>
+      <view class="alumb">
+        <view class="bg">
+          <image src="{{imgSrc}}/assets/dynamic/list-alumb.png" mode="widthFix" />
+        </view>
+        <image src="{{imgSrc}}{{res.img}}" mode="widthFix" />
+      </view>
+      <view class="article">
+        <view class="p" wx:for="{{res.article}}" wx:for-item="article" wx:for-index="idx" wx:key="idx">
+          {{article}}
+        </view>
+      </view>
+    </view>
+    <view class="comments">
+      <view class="list" wx:for="{{res.comments}}" wx:for-item="comment" wx:key="index">
+        <view class="avatar">
+          <image src="{{imgSrc}}{{comment.avatar}}" mode="widthFix" />
+          <text>{{comment.name}}</text>
+        </view>
+        <view class="comment">
+          <view class="p">{{comment.comment}}</view>
+        </view>
+      </view>
+      <view class="textarea">
+        <textarea placeholder="欢迎大家评论留言……"></textarea>
+        <view class="submit">评论</view>
+      </view>
+    </view>
+  </view>

@@ -45,9 +45,10 @@
   justify-content: center;
   align-items: center;
   padding: 14.58333333rpx 0;
-  font-size: 9.72222222rpx;
+  font-size: 25rpx;
 }
-.footer .ul .li > text {
+.footer .ul .li > text:nth-child(1) {
+  display: block;
   font-size: 41.66666667rpx;
   margin-bottom: 2.77777778rpx;
 }

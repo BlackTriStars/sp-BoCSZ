@@ -10,14 +10,14 @@
       <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
         <block wx:for="{{6}}">
           <swiper-item>
-            <image src="{{imgSrc}}/assets/index/banner.png" mode="scaleToFill" />
+            <image src="{{imgSrc}}/assets/index/banner.png" mode="widthFix" />
           </swiper-item>
         </block>
       </swiper>
     </view>
     <view class="navList">
       <ul>
-        <li wx:for="{{navList}}" wx:for-item="nav" wx:for-index="index" wx:key="index" bindtap="go" data-url="{{nav.name}}">
+        <li wx:for="{{navList}}" wx:for-item="nav" wx:for-index="index" wx:key="index" bindtap="go" data-url="{{nav.url}}">
           <image src="{{imgSrc}}/assets/index/{{nav.img}}.png" />
           <text>{{nav.content}}</text>
         </li>
@@ -31,12 +31,12 @@
           <image class="icon" src="{{imgSrc}}/assets/index/{{main.topLine.img}}.png" />
           {{main.topLine.title}}
         </view>
-        <span class="more right" bindtap="go" data-url="{{main.name}}">
+        <span class="more right" bindtap="go" data-url="{{main.moreUrl}}">
           查看更多
           <i class="icon-more"></i>
         </span>
       </view>
-      <view class="mainItem left" wx:for="{{main.main}}" wx:for-index="idx" wx:key="idx" bindtap="go" data-url="{{item.name}}">
+      <view class="mainItem left" wx:for="{{main.main}}" wx:for-index="idx" wx:key="idx" bindtap="go" data-url="{{item.url}}">
         <view class="item">
           <image src="{{imgSrc}}/assets/index/{{item.img}}.png" mode="scaleToFill" />
           <view class="desc">{{item.content}}</view>

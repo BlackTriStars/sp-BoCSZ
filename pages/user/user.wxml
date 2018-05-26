@@ -8,7 +8,7 @@
       <open-data class="portraitImg" type="userAvatarUrl"></open-data>
     </view>
     <view class="name">
-    <open-data type="userNickName" lang="zh_CN"></open-data>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
     </view>
     <view class="detail">
       <view class="item" wx:for="{{userInfo.detail}}" wx:key="index">
@@ -17,7 +17,7 @@
     </view>
   </view>
   <view class="lists">
-<view class="list" wx:for="{{list}}" wx:key="index" wx:for-item="list" bindtap="go" data-name="{{list.name}}">
+    <view class="list" wx:for="{{list}}" wx:key="index" wx:for-item="list" bindtap="go" data-url="{{list.url}}" data-name="{{list.name}}">
       <p class="title">
         <text>
           <image src="{{list.img}}" />
@@ -30,4 +30,5 @@
       </view>
     </view>
   </view>
+  <component-footer currentIndex="{{2}}"></component-footer>
 </view>

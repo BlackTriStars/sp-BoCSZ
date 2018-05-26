@@ -1,0 +1,75 @@
+@rem: 750/1080rpx;
+#history {
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+    .swiper {
+        image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .main {
+        background: #fff;
+        border: 1*@rem solid transparent;
+        padding: 0 40*@rem;
+        &.edit {
+            padding-left: 110*@rem;
+        }
+        .item {
+            margin-top: 30*@rem;
+            height: 263*@rem;
+            width: 100%;
+            border-bottom: 1*@rem solid #999;
+            /*no*/
+            position: relative;
+            &:last-child {
+                border: none;
+            }
+            .img {
+                float: left;
+                margin-right: 30*@rem;
+                image {
+                    width: 374*@rem;
+                    height: 235*@rem;
+                }
+            }
+            .detail {
+                overflow: hidden;
+                height: 100%;
+                &>.title {
+                    font-size: 32*@rem;
+                    font-weight: bold;
+                    color: #333;
+                    margin-bottom: 20*@rem;
+                }
+                &>.p {
+                    color: #444;
+                    font-size: 30*@rem;
+                }
+                .data {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: cente;
+                    height: 33*@rem;
+                    font-size: 28*@rem;
+                    color: #999;
+                    margin-top: 25*@rem;
+                    &>text {
+                        display: flex;
+                        align-items: center;
+                        image {
+                            width: 58*@rem;
+                            height: 30*@rem;
+                            margin-right: 8*@rem;
+                        }
+                    }
+                    &>text {
+                        font-size: 38*@rem;
+                        margin-right: 8*@rem;
+                    }
+                }
+            }
+        }
+    }
+}

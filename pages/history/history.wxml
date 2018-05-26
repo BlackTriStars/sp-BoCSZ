@@ -1,2 +1,28 @@
-<!--pages/history/history.wxml-->
-<text>pages/history/history.wxml</text>
+  <view id="history">
+    <view class="swiper">
+      <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+        <block wx:for="{{6}}">
+          <swiper-item>
+            <image src="{{imgSrc}}/assets/dynamic/dynamic-banner.png" mode="scaleToFill" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="main">
+      <view class="item" wx:for="{{list}}" wx:key="index" bindtap="go">
+        <view class="img">
+          <image src="{{imgSrc}}{{item.img}}" />
+        </view>
+        <view class="detail">
+          <view class="title">{{item.title}}</view>
+          <view class="p">{{item.content}}</view>
+          <view class="data">
+            <span wx:for="{{item.data}}" wx:for-item="v" wx:for-index="i" wx:key="i">
+              <text class="icon-{{v.name}}"></text>
+              {{v.value}}
+            </span>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

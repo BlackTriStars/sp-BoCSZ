@@ -66,7 +66,7 @@
   justify-content: space-between;
   align-items: center;
 }
-#surveyList .btnWrap > div {
+#surveyList .btnWrap > view {
   width: 327.77777778rpx;
   height: 95.83333333rpx;
   background: #1074ee;

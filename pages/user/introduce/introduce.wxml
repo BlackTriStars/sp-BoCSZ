@@ -1,2 +1,39 @@
-<!--pages/user/introduce/introduce.wxml-->
-<text>pages/user/introduce/introduce.wxml</text>
+  <view id="introduce">
+    <view class="one" wx:if="{{part === 0}}">
+      <view class="bg">
+        <image src="{{imgSrc}}/assets/user/introduce-0.png" mode="widthFix"/>
+      </view>
+    </view>
+    <view class="two" wx:if="{{part === 1}}">
+      <view class="bg">
+        <image src="{{imgSrc}}/assets/user/introduce-1.png" mode="widthFix"/>
+      </view>
+      <view class="first">
+        <!-- :style="{top:parseInt((index+1)/2)}" 814/28.5% -->
+        <view class="button" wx:for="{{showlist1}}" wx:key="index" wx:for-item="btn" style="top:{{btn.location}}%" bindtap="showAlbum" data-type="firstFloor" data-index="{{index}}">
+          {{btn.area}}
+        </view>
+      </view>
+      <view class="second">
+        <view class="button" wx:for="{{showlist2}}" wx:key="index" wx:for-item="btn" style="top:{{btn.location}}%" bindtap="showAlbum" data-type="secondFloor" data-index="{{index}}">
+          {{btn.area}}
+        </view>
+      </view>
+    </view>
+    <view class="mask" wx:if="{{album}}">
+      <view class="album">
+        <view class="bg">
+          <view class="title">
+            {{title}}
+          </view>
+          <view class="close" bindtap="close">
+            <i class="icon-close"></i>
+          </view>
+          <image src="{{imgSrc}}/assets/user/album.png" mode="widthFix"/>
+        </view>
+        <view class="imgWrap">
+          <image src="{{imgSrc}}/assets/user/album-0.png" mode="widthFix"/>
+        </view>
+      </view>
+    </view>
+  </view>

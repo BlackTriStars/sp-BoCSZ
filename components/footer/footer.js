@@ -39,19 +39,18 @@ Component({
       let url = e.currentTarget.dataset.url;
       switch (index) {
         case 0:
-          url='index'
+          url='/pages/index/index'
           break;
         case 1:
-          url='materialIndex'
+          url='/pages/materialIndex/materialIndex'
           break;
         case 2:
-          url='user'
-          break;
-      
-        default:
+          url='/pages/user/user'
           break;
       }
-
+      wx.redirectTo({
+        url
+      })
     }
   }
 })

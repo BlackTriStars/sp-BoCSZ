@@ -1,0 +1,129 @@
+#historyList .content {
+  padding: 27.77777778rpx;
+  background: #f8ffef;
+  border-bottom: 0.69444444rpx solid #999;
+  /*no*/
+  margin-bottom: 20.83333333rpx;
+}
+#historyList .content .title {
+  line-height: 48.61111111rpx;
+  font-size: 33.33333333rpx;
+  text-align: center;
+}
+#historyList .content .data {
+  height: 52.77777778rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: cente;
+  font-size: 19.44444444rpx;
+  color: #999;
+  margin-top: 17.36111111rpx;
+}
+#historyList .content .data > text {
+  display: flex;
+  align-items: center;
+  margin-left: 20.83333333rpx;
+}
+#historyList .content .data > text image {
+  width: 40.27777778rpx;
+  height: 20.83333333rpx;
+  margin-right: 5.55555556rpx;
+}
+#historyList .content .data > text {
+  font-size: 26.38888889rpx;
+  margin-right: 5.55555556rpx;
+}
+#historyList .content .alumb {
+  position: relative;
+  width: 694.44444444rpx;
+  height: 347.22222222rpx;
+  margin: 5rpx 0;
+}
+#historyList .content .alumb image {
+  width: 100%;
+  height: 100%;
+}
+#historyList .content .alumb > image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#historyList .content .alumb .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+#historyList .content .article {
+  margin-top: 31.25rpx;
+}
+#historyList .content .article .p {
+  text-indent: 2em;
+  font-size: 25rpx;
+  line-height: 41.66666667rpx;
+  color: #4c4c4c;
+}
+#historyList .comments {
+  border-top: 0.69444444rpx solid #999;
+  /*no*/
+  background: #f8ffef;
+}
+#historyList .comments .list {
+  width: 100%;
+  height: 152.77777778rpx;
+  border-bottom: 0.69444444rpx dashed #999;
+  /*no*/
+  padding: 19.44444444rpx 27.77777778rpx 19.44444444rpx 22.22222222rpx;
+  display: flex;
+  align-items: center;
+}
+#historyList .comments .list:nth-last-child(2) {
+  border: none;
+}
+#historyList .comments .list .avatar {
+  margin-right: 34.72222222rpx;
+}
+#historyList .comments .list .avatar image {
+  width: 79.86111111rpx;
+  height: 80.55555556rpx;
+}
+#historyList .comments .list .avatar text {
+  display: block;
+  font-size: 22.22222222rpx;
+  color: #8d8d8d;
+}
+#historyList .comments .list .comment {
+  width: 574.30555556rpx;
+}
+#historyList .comments .list .comment .p {
+  font-size: 22.22222222rpx;
+  color: #4c4c4c;
+}
+#historyList .comments .textarea {
+  padding: 0 27.77777778rpx 20.83333333rpx;
+  width: 100%;
+}
+#historyList .comments .textarea textarea {
+  width: 100%;
+  height: 130.55555556rpx;
+  resize: none;
+  border-radius: 8.33333333rpx;
+  overflow: hidden;
+  border: solid 2.77777778rpx #e4e4e4;
+  font-size: 24.30555556rpx;
+  padding: 19.44444444rpx 20.83333333rpx;
+  box-sizing: border-box;
+}
+#historyList .comments .textarea .submit {
+  width: 100%;
+  height: 95.83333333rpx;
+  background-image: linear-gradient(#3fa209, #3fa209), linear-gradient(45deg, #41924f 0%, #38be4f 100%);
+  font-size: 41.66666667rpx;
+  color: #fffffe;
+  text-align: center;
+  line-height: 95.83333333rpx;
+  margin-top: 26.38888889rpx;
+}

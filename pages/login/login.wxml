@@ -13,6 +13,6 @@
     <view class="section">
       <input placeholder="输入密码" type="password" name="userName"></input>
     </view>
-    <button form-type="submit">登陆/绑定</button>
+    <button  open-type="getUserInfo" form-type="submit">登陆/绑定</button>
   </form>
 </view>
