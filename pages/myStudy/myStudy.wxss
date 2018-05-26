@@ -1,0 +1,87 @@
+/* pages/myStudy/login.wxml.wxss */
+.my-study {
+  background-color: #edffff;
+  min-height: 100vh;
+}
+.my-study .toggle-container {
+  height: 113rpx;
+  position: relative;
+}
+.my-study .toggle-container .toggle {
+  width: 41%;
+  height: 76rpx;
+  line-height: 76rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.my-study .content ul {
+  width: 100%;
+  display: block;
+}
+
+.my-study .toggle-container .toggle li {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  font-size: 29rpx;
+}
+.my-study .toggle-container .toggle li:first-child {
+  border-top-left-radius: 76rpx;
+  border-bottom-left-radius: 76rpx;
+  background-color: #33a6ef;
+  color: #fff;
+}
+.my-study .toggle-container .toggle li:last-child {
+  border-top-right-radius: 76rpx;
+  border-bottom-right-radius: 76rpx;
+  background-color: #ffffff;
+  color: #000000;
+}
+.my-study .content {
+  padding: 24rpx 3%;
+  height: 1000px;
+}
+.my-study .content li {
+  padding: 24rpx 0 24rpx 37vw;
+  border-bottom: 0.69444444rpx solid #afb4b4;
+  display: block;
+  position: relative;
+}
+.my-study .content li image {
+  width: 34vw;
+  height: 160rpx;
+  position: absolute;
+  left: 0;
+}
+.my-study .content li text {
+  font-size: 29rpx;
+}
+.my-study .content li .p {
+  margin-top: 19.32rpx;
+  max-height: 93.15rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-size: 25rpx;
+}
+.my-study .content li .status {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 13rpx;
+  font-size: 20rpx;
+}
+.my-study .content li .status span {
+  width: 33%;
+  padding-left: 43rpx;
+  background: 0 50% no-repeat;
+  font-size: 25rpx;
+}

@@ -12,7 +12,9 @@
     "pages/user/introduce/introduce",
     "pages/survey/surveyTest/surveyTest",
     "pages/dynamic/dynamicDetail/dynamicDetail",
-    "pages/history/historyDetail/historyDetail"
+    "pages/history/historyDetail/historyDetail",
+    "pages/myStudy/myStudy",
+    "pages/material/material"
   ],
   "window": {
     "backgroundTextStyle": "light",

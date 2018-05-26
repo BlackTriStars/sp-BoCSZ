@@ -110,9 +110,15 @@
 					"query": ""
 				},
 				{
-					"id": 13,
-					"name": "historyDetail",
-					"pathName": "pages/history/historyDetail/historyDetail",
+					"id": -1,
+					"name": "myStudy",
+					"pathName": "pages/myStudy/myStudy",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "material",
+					"pathName": "pages/material/material",
 					"query": ""
 				}
 			]

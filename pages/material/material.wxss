@@ -1,0 +1,150 @@
+/* pages/material/material.wxss */
+.red {
+  color: red;
+}
+.material .video {
+  width: 100%;
+  height: 447rpx;
+  background-size: cover;
+}
+.material .video .play {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 15%;
+}
+.material .video-info {
+  height: 142rpx;
+  background-color: #eff8ff;  
+  padding: 4%;
+  font-size: 25rpx;
+  display: block;
+}
+
+.material .video-info .info {
+  display: block;
+}
+
+.material .video-info>text {
+  margin-bottom: 27rpx;
+  font-weight: 500;
+  display: block;
+}
+.material .video-info .points {
+  float: left;
+  padding-left: 31rpx;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 20%;
+}
+.material .video-info .status {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  float: right;
+  width: 50%;
+  margin-right: 4vw;
+}
+.material .video-info .status span {
+  padding-left: 43rpx;
+  background: 29% 50% no-repeat;
+  color: gray;
+}
+.material .toggle {
+  padding: 4%;
+  margin-top: 20rpx;
+  background-color: #eff8ff;
+}
+.material .toggle .toggle-buttons {
+  width: 100%;
+  margin: 0 auto 36rpx;
+  height: 82rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.material .toggle .toggle-buttons li {
+  width: 50%;
+  font-size: 36rpx;
+  height: 100%;
+  line-height: 82rpx;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #9e9e9e;
+}
+.material .toggle .toggle-buttons li.active {
+  color: #fff;
+  background-color: #33a6ef;
+}
+.material .toggle .toggle-buttons li:first-child {
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.material .toggle .toggle-buttons li:last-child {
+  border-top-right-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.material .toggle p {
+  font-size: 26rpx;
+  text-indent: 2em;
+}
+.material .toggle .comment-bar {
+  position: relative;
+  height: 175rpx;
+  padding: 25rpx 0 25rpx 17%;
+  border-bottom: 2px dotted #9e9e9e;
+}
+.material .toggle .comment-bar .user-info {
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 20%;
+}
+.material .toggle .comment-bar image {
+  margin-bottom: 10rpx;
+  width: 79rpx;
+  height: 79rpx;
+  border-radius: 100%;
+  background-color: pink;
+  display: block;
+}
+.material .toggle .comment-bar p {
+  text-indent: 0;
+  height: 103rpx;
+  overflow: hidden;
+}
+
+.material .toggle .comment-bar .name {
+  font-size: 27rpx;
+  color: gray;
+}
+
+.material .toggle textarea {
+  height: 180px;
+  width: 96%;
+  border-radius: 6.9rpx;
+  border: 3.45rpx solid #e4e4e4;
+  padding: 17rpx;
+  display: block;
+  font-size: 25rpx;
+  margin-top: 40rpx;
+}
+.material .toggle button {
+  width: 100%;
+  height: 93rpx;
+  line-height: 93rpx;
+  margin-top: 15rpx;
+  font-size: 40rpx;
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  background-color: #1074ee;
+  border: 0 none;
+}
+
+.material .hide {
+  display: none;
+}
