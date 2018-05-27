@@ -42,7 +42,7 @@ Page({
     },
     chooseAnswer(e) {
       let index = e.currentTarget.dataset.index;
-      let attr = 'questionList['+ this.current+'].value';
+      let attr = 'questionList['+ this.data.current+'].value';
       this.setData({
         [attr]: index
       })
