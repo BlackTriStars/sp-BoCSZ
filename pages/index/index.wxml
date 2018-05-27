@@ -44,5 +44,14 @@
       </view>
     </view>
   </view>
+  <!-- 滚动加载 和 提示框 展示 -->
+  <view class="exhibition {{exhibition?'':'active'}}">
+    <view class="n-active" wx:if="{{exhibition}}" bindtap="toggleExhibition" data-open="true">show</view>
+    <view class="active"wx:else>
+      <view>scroller</view>
+      <view>toast</view>
+      <view class="close" bindtap="toggleExhibition" data-open="false">X</view>
+    </view>
+  </view>
   <component-footer currentIndex="{{0}}"></component-footer>
 </view>

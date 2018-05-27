@@ -120,7 +120,8 @@ Page({
     indicatorDots: true,
     indicatorColor: 'rgba(255,255,255,.8)',
     indicatorActiveColor: '#91d9ff',
-    imgSrc: config.imgSrc
+    imgSrc: config.imgSrc,
+    exhibition: true
   },
   onLoad: function () {
 
@@ -128,5 +129,16 @@ Page({
   go(e){
     let url = e.currentTarget.dataset.url;
     wx.navigateTo({url})
+  },
+  toggleExhibition(e){
+    let open = e.currentTarget.dataset.open;
+    let bol = true;
+    console.log(e)
+    if(open === 'true'){
+      bol = false
+    }
+    this.setData({
+      exhibition: bol
+    })
   }
 })

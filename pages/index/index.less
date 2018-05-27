@@ -46,8 +46,7 @@
                     input {
                         outline: none;
                         border: none;
-                        height: 100%;
-                        // width: 100%;
+                        height: 100%; // width: 100%;
                         padding: 0 50*@rem 0 100*@rem;
                         font-size: 36*@rem;
                     }
@@ -154,5 +153,43 @@
                 }
             }
         }
+    }
+    .exhibition {
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 50rpx;
+      background: #f2f2f2;
+      position: fixed;
+      bottom: 200rpx;
+      right: 30rpx;
+      transition: all .3s;
+      &.active{
+          width: 250rpx;
+          background: rgb(255, 163, 77);
+          &>view{
+              display: flex;
+              justify-content: space-around;
+              color: #fff;
+          }
+        }
+      &>view {
+        width: 100%;
+        height: 100%;
+        font-size: 24rpx;
+        position: absolute;
+        line-height: 100rpx;
+        text-align: center;
+      }
+      .close{
+          position: absolute;
+          top: -30rpx;
+          left: 50%;
+          transform: translateX(-50%);
+          background: rgb(255, 163, 77);
+          line-height: 40rpx;
+          width: 80rpx;
+          border-top-right-radius: 40rpx;
+          border-top-left-radius: 40rpx;
+      }
     }
 }

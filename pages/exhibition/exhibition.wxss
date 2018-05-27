@@ -1,0 +1,99 @@
+#toast {
+  height: 100vh;
+  width: 100%;
+  padding: 0 20rpx;
+}
+#toast .table {
+  display: flex;
+  flex-direction: column;
+}
+#toast .table .title {
+  text-align: center;
+  line-height: 40rpx;
+  padding: 20rpx;
+}
+#toast .table .btnWrap {
+  display: flex;
+  justify-content: space-between;
+}
+#toast .table .btnWrap button {
+  border: 1rpx solid #333;
+  color: #fbfbfb;
+}
+#toast .table .btnWrap button:nth-child(1) {
+  background: #40da3a;
+}
+#toast .table .btnWrap button:nth-child(2) {
+  background: #d36913;
+}
+#toast .tip {
+  font-size: 40rpx;
+  margin-top: 100rpx;
+}
+#toast .tip > view {
+  font-size: 30rpx;
+}
+#scroller .main {
+  background: #fff;
+  border: 0.69444444rpx solid transparent;
+  padding: 0 27.77777778rpx;
+  height: 100vh;
+}
+#scroller .main.edit {
+  padding-left: 76.38888889rpx;
+}
+#scroller .main .item {
+  margin-top: 20.83333333rpx;
+  height: 182.63888889rpx;
+  width: 100%;
+  border-bottom: 0.69444444rpx solid #999;
+  /*no*/
+  position: relative;
+}
+#scroller .main .item:last-child {
+  border: none;
+}
+#scroller .main .item .img {
+  float: left;
+  margin-right: 20.83333333rpx;
+}
+#scroller .main .item .img image {
+  width: 259.72222222rpx;
+  height: 163.19444444rpx;
+}
+#scroller .main .item .detail {
+  overflow: hidden;
+  height: 100%;
+}
+#scroller .main .item .detail > .title {
+  font-size: 22.22222222rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 13.88888889rpx;
+}
+#scroller .main .item .detail > .p {
+  color: #444;
+  font-size: 20.83333333rpx;
+}
+#scroller .main .item .detail .data {
+  display: flex;
+  justify-content: space-between;
+  align-items: cente;
+  height: 22.91666667rpx;
+  font-size: 19.44444444rpx;
+  color: #999;
+  margin-top: 17.36111111rpx;
+}
+#scroller .main .item .detail .data > text {
+  display: flex;
+  align-items: center;
+}
+#scroller .main .item .detail .data > text image {
+  width: 40.27777778rpx;
+  height: 20.83333333rpx;
+  margin-right: 5.55555556rpx;
+}
+#scroller .main .item .detail .data > text {
+  font-size: 26.38888889rpx;
+  margin-right: 5.55555556rpx;
+}
