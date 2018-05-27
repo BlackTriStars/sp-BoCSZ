@@ -140,5 +140,14 @@ Page({
     this.setData({
       exhibition: bol
     })
+  },
+  toExhibition(e){
+    let type = e.currentTarget.dataset.type;
+    this.setData({
+      exhibition: true      
+    })
+    wx.navigateTo({
+      url: '/pages/exhibition/exhibition?type='+type
+    })
   }
 })

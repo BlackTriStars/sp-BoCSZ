@@ -6,12 +6,12 @@
     <view class="title">欢迎登陆</view>
   </view>
 
-  <form bindsubmit="login">
+  <form bindsubmit="login" report-submit="true">
     <view class="section">
       <input placeholder="输入账号" type="text" name="userName"></input>
     </view>
     <view class="section">
-      <input placeholder="输入密码" type="password" name="userName"></input>
+      <input placeholder="输入密码" type="password" name="password"></input>
     </view>
     <button  open-type="getUserInfo" form-type="submit">登陆/绑定</button>
   </form>

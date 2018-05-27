@@ -118,9 +118,10 @@ Page({
     ],
     imgSrc: config.imgSrc
   },
-  onLoad(){
+  onLoad(options){
     this.setData({
-      list: this.data.data
+      list: this.data.data,
+      type: options.type
     })
   },
   //  滚动加载相关

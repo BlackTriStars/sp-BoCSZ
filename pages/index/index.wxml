@@ -48,8 +48,8 @@
   <view class="exhibition {{exhibition?'':'active'}}">
     <view class="n-active" wx:if="{{exhibition}}" bindtap="toggleExhibition" data-open="true">show</view>
     <view class="active"wx:else>
-      <view>scroller</view>
-      <view>toast</view>
+      <view bindtap="toExhibition" data-type="scroller">scroller</view>
+      <view bindtap="toExhibition" data-type="toast">toast</view>
       <view class="close" bindtap="toggleExhibition" data-open="false">X</view>
     </view>
   </view>
