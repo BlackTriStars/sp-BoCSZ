@@ -13,7 +13,9 @@
     "pages/survey/surveyTest/surveyTest",
     "pages/dynamic/dynamicDetail/dynamicDetail",
     "pages/history/historyDetail/historyDetail",
-    "pages/exhibition/exhibition"
+    "pages/exhibition/exhibition",
+    "pages/myStudy/myStudy",
+    "pages/material/material"
   ],
   "window": {
     "backgroundTextStyle": "light",

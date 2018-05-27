@@ -45,7 +45,7 @@ Page({
             img: 'index-img1',
             content: '理财新法规',
             name: 'material',
-            url: '/pages/material'            
+            url: '/pages/material/material'            
           },
         ],
         name: 'latestLesson'

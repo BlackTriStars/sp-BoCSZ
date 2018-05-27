@@ -1,0 +1,37 @@
+<view class="material">
+    <view class="video" style='background-image: url("{{imgSrc}}/assets/material/video.png");'>
+      <view class="play" style='background-image: url("{{imgSrc}}/assets/material/play.png");'></view>
+    </view>
+    <view class="video-info">
+      <text>课程名称: 企业文化</text>
+      <view class="info">
+        <span class="points" style='background-image: url("{{imgSrc}}/assets/material/point.png");'>
+          积分：{{jifen}}
+        </span>
+        <view class="status">
+          <span class="collect icon-love">{{number.collect}}</span>
+          <span class="icon-users">{{number.number}}</span>
+          <span class="like icon-like">{{number.like}}</span>
+          <span class="wechat icon-wechat">{{number.wechart}}</span>
+        </view>
+      </view>
+    </view>
+    <view class="toggle">
+      <ul class="toggle-buttons">
+        <li bindtap="toggleIntroType">课程介绍</li>
+        <li bindtap="toggleCommentsType">评论</li>
+      </ul>
+      <p wx:if="{{type=='intro'}}">
+        近日，全国近日，全国首场外汇市场准则培训在北京中国银行总行举办。中国银行副行长任德奇，外管局国际收支司司长王春英以及人近日，全国近日，全国首场外汇市场准则培训在北京中国银行总行举办。中国银行副行长任德奇，外管局国际收支司司长王春英以及人近日，全国近日，全国首场外汇市场准则培训在北京中国银行总行举办。中国银行副行长任德奇，外管局国际收支司司长王春英以及人
+      </p>
+      <view  class="comment-bar" wx:for="{{comments}}" wx:key='index' wx:if="{{type=='comments'}}">
+        <view class="user-info">
+          <image src="{{imgSrc}}/assets/material/{{item.avatar}}.png" />
+          <span class="name">{{item.name}}</span>
+        </view>
+        <p>{{item.content}}</p>
+      </view>
+      <textarea cols="30" rows="10" placeholder="欢迎大家评论留言" wx:if="{{type=='comments'}}"></textarea>
+      <button wx:if="{{type=='comments'}}">评论</button>
+    </view>
+  </view>

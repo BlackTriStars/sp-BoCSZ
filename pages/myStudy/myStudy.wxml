@@ -1,0 +1,23 @@
+<!--pages/myStudy/login.wxml.wxml-->
+  <view class="my-study">
+    <view class="toggle-container" style='background:  url("{{imgSrc}}/assets/myStudy/banner.png") 0 0/cover no-repeat'>
+      <ul class="toggle">
+        <li>进行中</li>
+        <li>已完成</li>
+      </ul>
+    </view>
+    <view class="content">
+      <ul>
+        <li wx:for="{{list}}" :key='index'>
+           <image src="{{imgSrc}}/assets/user/{{item.img}}.png" />
+          <text>{{item.title}}</text>
+          <text class="p">{{item.text}}</text>
+          <view class="status">
+            <span class="icon-users">{{item.numberNum}}</span>
+            <span class="icon-like">{{item.likeNum}}</span>
+            <span class="icon-wechat">{{item.wechartNum}}</span>
+          </view> 
+        </li>
+      </ul>
+    </view>
+  </view>
