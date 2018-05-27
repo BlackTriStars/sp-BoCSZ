@@ -20,7 +20,9 @@
     "pages/tools/live/live",
     "pages/tools/review/review",
     "pages/trainMaterial/trainMaterial",
-    "pages/recommended/recommended"
+    "pages/recommended/recommended",
+    "pages/latestLesson/latestLesson",
+    "pages/materialIndex/materialIndex"
   ],
   "window": {
     "backgroundTextStyle": "light",
