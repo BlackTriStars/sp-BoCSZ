@@ -18,7 +18,8 @@
     "pages/material/material",
     "pages/tools/app/app",
     "pages/tools/live/live",
-    "pages/tools/review/review"
+    "pages/tools/review/review",
+    "pages/trainMaterial/trainMaterial"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,12 @@
+<!--pages/trainMaterial/trainMaterial.wxml-->
+<view class="trainMaterial">
+      <view class="top" style='background-image: url("{{imgSrc}}assets/trainPlan/banner.png");'></view>
+      <view class="bottom" style='background-image: url("{{imgSrc}}assets/trainPlan/bg.png");'>
+          <view class='ul' style='background-image: url("{{imgSrc}}assets/trainPlan/bg2.png");'>
+              <view class='li' wx:for="{{buttons}}">
+                  <image src="{{imgSrc}}assets/trainMaterial/{{item}}.png" alt="" />
+              </view>
+          </view>
+      </view>
+      <image class="man" src="{{imgSrc}}assets/trainPlan/man.png" alt="" />
+  </view>

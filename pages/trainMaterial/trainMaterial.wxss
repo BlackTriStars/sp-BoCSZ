@@ -1,0 +1,51 @@
+/* pages/trainMaterial/trainMaterial.wxss */
+.trainMaterial {
+  background-color: #fff;
+  position: relative;
+  height: 100vh;
+}
+.trainMaterial .top {
+  height: 410rpx;
+  background-size: 130% 100%;
+  background-position: 40% 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.trainMaterial .bottom {
+  height: 80%;
+  position: absolute;
+  top: 345rpx;
+  width: 100%;
+}
+.trainMaterial .man {
+  height: 316rpx;
+  width: 191rpx;
+  position: absolute;
+  bottom: 24rpx;
+  left: 42rpx;
+  z-index: 2;
+  display: block;
+}
+.trainMaterial .ul {
+  width: 679rpx;
+  height: 574rpx;
+  margin: 124rpx auto;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 35rpx 40rpx 124rpx  40rpx;
+}
+.trainMaterial .ul .li {
+  width: 33%;
+  height: 103rpx;
+}
+
+.trainMaterial .ul .li image {
+  width: 100%;
+  height:  100%;
+}

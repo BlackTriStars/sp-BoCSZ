@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 20,
 			"list": [
 				{
 					"id": -1,
@@ -125,10 +125,10 @@
 					"id": -1,
 					"name": "exhibition",
 					"pathName": "pages/exhibition/exhibition",
-          "query": ""
-        },
-        {
-          "id": -1,
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "tool",
 					"pathName": "pages/tools/tools",
 					"query": ""
@@ -149,6 +149,12 @@
 					"id": -1,
 					"name": "review",
 					"pathName": "pages/tools/review/review",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "trainMaterial",
+					"pathName": "pages/trainMaterial/trainMaterial",
 					"query": ""
 				}
 			]
