@@ -1,0 +1,68 @@
+/* pages/tools/review/review.wxss */
+/* pages/tools/review/review.wxss */
+.review {
+  position: relative;
+}
+.review .banner {
+  position: absolute;
+  top: 0;
+  height: 391rpx;
+  width: 100%;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.review .content {
+  position: absolute;
+  top: 367rpx;
+  height: 64vh;
+  width: 100%;
+  background-size: 100% 105%;
+}
+.review .content .header {
+  position: relative;
+  width: 408rpx;
+  height: 86rpx;
+  margin: 48.3px auto 50px;
+  background-size: 100% 100%;
+}
+.review .content p {
+  padding-top: 62rpx;
+  text-align: center;
+  font-size: 23rpx;
+  position: absolute;
+  bottom: 99rpx;
+  width: 100%;
+  background-size: 5%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+.review .content .ul {
+  width: 67%;
+  margin: 0 auto;
+}
+.review .content .ul .li {
+  height: 110rpx;
+  font-size: 24rpx;
+  width: 100%;
+  padding: 37rpx 4% 0 15%;
+  position: relative;
+}
+.review .content .ul .li i {
+  position: absolute;
+  width: 64rpx;
+  height: 64rpx;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  background-size: 100% 100%;
+  line-height: 64rpx;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+}
+.review .content .ul .li:nth-child(2) {
+  border-top: 2px dotted #eeb944;
+  border-bottom: 2px dotted #eeb944;
+}
+/* pages/tools/review/review.wxss */

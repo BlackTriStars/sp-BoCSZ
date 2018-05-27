@@ -1,1 +1,39 @@
 /* pages/tools/tools.wxss */
+.tools {
+  position: relative;
+}
+.tools .banner {
+  position: absolute;
+  top: 0;
+  height: 390rpx;
+  width: 100%;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.tools .content {
+  position: absolute;
+  top: 367rpx;
+  height: 64vh;
+  width: 100%;
+  background-size: 100% 105%;
+}
+.tools .content .ul {
+  margin-top: 44rpx;
+}
+.tools .content .ul .li {
+  height: 106rpx;
+  width: 84%;
+  margin: 0 auto 53rpx;
+  background-size: 100% 100%;
+}
+.tools .content p {
+  padding-top: 62rpx;
+  text-align: center;
+  font-size: 23rpx;
+  position: absolute;
+  bottom: 99rpx;
+  width: 100%;
+  background-size: 5%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}

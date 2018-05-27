@@ -1,5 +1,5 @@
-// pages/tools/tools.js
-import config from '../../config/constant.js'
+// pages/tools/live/live.js
+import config from '../../../config/constant.js'
 Page({
 
   /**
@@ -7,7 +7,6 @@ Page({
    */
   data: {
     imgSrc: config.imgSrc,
-    
   },
 
   /**

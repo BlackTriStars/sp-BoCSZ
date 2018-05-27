@@ -15,7 +15,10 @@
     "pages/history/historyDetail/historyDetail",
     "pages/exhibition/exhibition",
     "pages/myStudy/myStudy",
-    "pages/material/material"
+    "pages/material/material",
+    "pages/tools/app/app",
+    "pages/tools/live/live",
+    "pages/tools/review/review"
   ],
   "window": {
     "backgroundTextStyle": "light",

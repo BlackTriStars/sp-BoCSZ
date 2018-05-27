@@ -1,2 +1,11 @@
-<!--pages/tools/tools.wxml-->
-<text>pages/tools/tools.wxml</text>
+<view class="tools">
+    <view class="banner" style='background-image: url("{{imgSrc}}assets/tools/banner.png");'></view>
+    <view class="content" style='background-image: url("{{imgSrc}}/assets/tools/background.png");'>
+        <view class='ul'>
+            <view class='li' style='background-image: url("{{imgSrc}}/assets/tools/app.png");'></view>
+            <view class='li' style='background-image: url("{{imgSrc}}/assets/tools/live.png");'></view>
+            <view class='li' style='background-image: url("{{imgSrc}}/assets/tools/review.png");'></view>
+        </view>
+        <p style='background-image: url("{{imgSrc}}/assets/tools/hand.png");'>点击列表查看详情</p>
+    </view>
+</view>

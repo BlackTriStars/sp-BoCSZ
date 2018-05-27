@@ -1,0 +1,13 @@
+<!--pages/tools/app/app.wxml-->
+<view class="app">
+    <view class="banner" style='background-image: url("{{imgSrc}}assets/tools/banner.png");'></view>
+    <view class="content" style='background-image: url("{{imgSrc}}assets/tools/background.png");'>
+        <view class="header" style='background-image: url("{{imgSrc}}assets/tools/app-banner.png");'></view>
+        <view class='ul'>
+            <view class='li'><i style='background-image: url("{{imgSrc}}assets/tools/list.png");'>01</i>    新一代手机培训平台APP端初始化设置指南</view>
+            <view class='li'><i style='background-image: url("{{imgSrc}}assets/tools/list.png");'>02</i>    中银学习APP首次使用指南</view>
+            <view class='li'><i style='background-image: url("{{imgSrc}}assets/tools/list.png");'>03</i>    中银学习APP下载链接</view>
+        </view>
+        <p style='background-image: url("{{imgSrc}}assets/tools/hand.png");'>点击列表查看详情</p>
+    </view>
+</view>

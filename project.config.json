@@ -125,6 +125,30 @@
 					"id": -1,
 					"name": "exhibition",
 					"pathName": "pages/exhibition/exhibition",
+          "query": ""
+        },
+        {
+          "id": -1,
+					"name": "tool",
+					"pathName": "pages/tools/tools",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "app",
+					"pathName": "pages/tools/app/app",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "live",
+					"pathName": "pages/tools/live/live",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "review",
+					"pathName": "pages/tools/review/review",
 					"query": ""
 				}
 			]
