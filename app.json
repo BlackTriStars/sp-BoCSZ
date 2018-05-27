@@ -19,7 +19,8 @@
     "pages/tools/app/app",
     "pages/tools/live/live",
     "pages/tools/review/review",
-    "pages/trainMaterial/trainMaterial"
+    "pages/trainMaterial/trainMaterial",
+    "pages/recommended/recommended"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,64 @@
+/* pages/recommended/recommended.wxss */
+.recommended .main {
+  background: #fff;
+  border: 0.69444444rpx solid transparent;
+  padding: 0 27.77777778rpx;
+}
+.recommended .main.edit {
+  padding-left: 76.38888889rpx;
+}
+.recommended .main .item {
+  margin-top: 20.83333333rpx;
+  height: 182.63888889rpx;
+  width: 100%;
+  border-bottom: 0.69444444rpx solid #999;
+  /*no*/
+  position: relative;
+}
+.recommended .main .item:last-child {
+  border: none;
+}
+.recommended .main .item .img {
+  float: left;
+  margin-right: 20.83333333rpx;
+}
+.recommended .main .item .img image {
+  width: 259.72222222rpx;
+  height: 163.19444444rpx;
+}
+.recommended .main .item .detail {
+  overflow: hidden;
+  height: 100%;
+}
+.recommended .main .item .detail > .title {
+  font-size: 22.22222222rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 13.88888889rpx;
+}
+.recommended .main .item .detail > .p {
+  color: #444;
+  font-size: 20.83333333rpx;
+}
+.recommended .main .item .detail .data {
+  display: flex;
+  justify-content: space-between;
+  align-items: cente;
+  height: 22.91666667rpx;
+  font-size: 19.44444444rpx;
+  color: #999;
+  margin-top: 17.36111111rpx;
+}
+.recommended .main .item .detail .data > text {
+  display: flex;
+  align-items: center;
+}
+.recommended .main .item .detail .data > text image {
+  width: 40.27777778rpx;
+  height: 20.83333333rpx;
+  margin-right: 5.55555556rpx;
+}
+.recommended .main .item .detail .data > text {
+  font-size: 26.38888889rpx;
+  margin-right: 5.55555556rpx;
+}

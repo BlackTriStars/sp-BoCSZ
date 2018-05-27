@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 20,
+			"current": 0,
 			"list": [
 				{
 					"id": -1,
@@ -155,6 +155,12 @@
 					"id": -1,
 					"name": "trainMaterial",
 					"pathName": "pages/trainMaterial/trainMaterial",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "recommended",
+					"pathName": "pages/recommended/recommended",
 					"query": ""
 				}
 			]
