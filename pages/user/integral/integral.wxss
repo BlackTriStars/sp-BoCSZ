@@ -69,3 +69,25 @@
   width: 126.38888889rpx;
   height: 55.55555556rpx;
 }
+
+#integral .rightArea {
+  width: 125rpx;
+  height: 55rpx;
+  background-size: 100% 100%;
+  line-height: 55rpx;
+  padding: 0 24rpx;
+  vertical-align: middle;
+}
+#integral .money {
+  width: 34rpx;
+  height: 100%;
+  display: inline-block;
+  background-size: 34rpx 34rpx;
+}
+#integral .number {
+  height: 100%;
+  display: inline-block;
+  float: right;
+  font-size: 30rpx;
+  color: #f49d31;
+}

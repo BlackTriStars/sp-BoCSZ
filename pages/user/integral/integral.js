@@ -12,15 +12,18 @@ Page({
       list: [{
         title: '课程学习',
         desc: '企业文化课程',
-        time: '2018-0420'
+        time: '2018-0420',
+        jifen: 1
       }, {
         title: '课程学习',
         desc: '企业文化课程',
-        time: '2018-0420'
+        time: '2018-0420',
+        jifen: 1
       }, {
         title: '课程学习',
         desc: '企业文化课程',
-        time: '2018-0420'
+        time: '2018-0420',
+        jifen: 1
       }, ]
     },
     imgSrc: config.imgSrc

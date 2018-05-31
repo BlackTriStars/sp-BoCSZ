@@ -18,7 +18,10 @@
           <view class="p time">{{item.time}}</view>
         </view>
         <view class="rightArea">
-          <image src="{{imgSrc}}/assets/user/gold.png"/>
+           <view class="img" style="background: background: url('{{imgSrc}}assets/user/jifenbg.png') 0 0 no-repeat;">
+            <span class="money" style="background: url('{{imgSrc}}assets/user/money.png') 0 50% no-repeat;"></span>
+            <span class="number">+{{item.jifen}}</span>
+          </view>
         </view>
       </view>
     </view>
